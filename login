@@ -4,6 +4,6 @@ System.setProperty("webdriver.chrome.driver","./drivers/chromedriver.exe");
     
     driver.get("https://www.flipkart.com/");
     
-    
+    driver.manage().window().maximize();
     
     driver.findElement(By.xpath("//div[text()='grocery']")).click();
